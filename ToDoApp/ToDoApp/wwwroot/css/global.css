@@ -1,0 +1,11 @@
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-base: 21px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+}
