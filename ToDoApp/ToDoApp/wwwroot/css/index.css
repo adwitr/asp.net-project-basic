@@ -3,7 +3,7 @@ body {
   line-height: normal;
 }
 .task-holder-div {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   border-radius: 29px;
@@ -14,12 +14,13 @@ body {
 }
 .task-header-div,
 .task-title-div {
-  position: absolute;
-  top: 36px;
-  left: 32px;
-  letter-spacing: -0.02em;
-  font-weight: 200;
-  display: inline-block;
+    position: relative;
+    transform: translate(-1.5em, -10em);
+    top: 36px;
+    left: 32px;
+    letter-spacing: -0.02em;
+    font-weight: 200;
+    display: inline-block;
 }
 .task-title-div {
   top: 81px;
@@ -69,20 +70,23 @@ body {
   display: inline-block;
 }
 .task-item-div {
-  position: absolute;
+/*  position: absolute;*/
   top: 92px;
   left: 60px;
   width: 389px;
   height: 389px;
 }
 .desktop-1 {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 1790px;
-  overflow: hidden;
-  text-align: left;
-  font-size: 20px;
-  color: var(--color-black);
-  font-family: var(--font-roboto);
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1790px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-auto-rows: 50vh;
 }
